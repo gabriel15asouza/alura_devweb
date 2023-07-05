@@ -97,3 +97,38 @@ body {
     padding-top: 1rem;
 }
 
+.plataforma {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 50vh;
+    color: var(--branco-principal);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 0 15rem;
+    gap: 15rem;
+}
+
+
+.plat_img {
+    width: 120%;
+}
+
+
+.plat_text {
+    width: 90%;
+    align-content: flex-start;
+}
+
+
+.plat_text h1 {
+    font-weight: 700;
+    font-size: 250%;
+    margin: 1rem 0;
+}
+
+
+.plat_text p {
+    color: var(--cinza-secundario);
+    font-weight: 200;
+}
