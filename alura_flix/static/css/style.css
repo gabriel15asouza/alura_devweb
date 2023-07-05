@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-fundo: #00030C;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1.6rem;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+#capa {
+    box-sizing: border-box;
+    background-image: url(../images/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        '. . . . .'
+        '. . content . .'
+        '. . . . .'
+        '. . . . .'
+        '. . . . .'
+    ;
+}
+
+.capa_content {
+    grid-area: content;
+    color: var(--branco-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 44%;
+    padding: 8rem 1rem 0;
+}
+
+.capa_content h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+.aluraplus_img {
+    width: 60%;
+    padding: 3rem 0;
+}
+
+.capa_buttons {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-self: center;
+    gap: 1.5rem;
+}
+
+.capa_buttons a {
+    color: var(--cinza-secundario);
+    font-size: large;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    border-color: var(--cinza-secundario);
+    transition: 0.5s;
+}
+
+.capa_buttons a:first-child{
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    border: var(--botao-azul);
+}
+
+.capa_buttons a:hover {
+    scale: 1.05;
+}
+
+.capa_content p {
+    color: var(--cinza-secundario);
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
