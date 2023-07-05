@@ -173,3 +173,36 @@ body {
 .combo_button:hover {
     scale: 1.05;
 }
+
+.download {
+    height: 50vh;
+    width: 100vw;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10rem;
+    gap: 5rem;
+}
+
+.down_img {
+    width: 100%;
+}
+
+.down_text {
+    color: var(--branco-principal);
+}
+
+.down_text h1 {
+    font-weight: 700;
+    font-size: 250%;
+    margin: 0;
+}
+
+.down_text p {
+    color: var(--cinza-secundario);
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+
