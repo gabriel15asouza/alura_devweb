@@ -1,5 +1,5 @@
 # Projeto Alura+
-Projeto proposto pela formação "A partir do zero: HTML e CSS para projetos web" da plataforma ALURA
+Projeto proposto pela formação "A partir do zero: HTML e CSS para projetos web" da plataforma Alura
 
 ## Objetivo
 
