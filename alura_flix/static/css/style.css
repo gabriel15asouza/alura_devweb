@@ -50,7 +50,7 @@ body {
 }
 
 .capa_content h1 {
-    font-size: 3rem;
+    font-size: 190%;
     text-align: center;
     margin: 0;
 }
@@ -97,7 +97,7 @@ body {
     padding-top: 1rem;
 }
 
-.plataforma {
+#plataforma {
     box-sizing: border-box;
     width: 100vw;
     height: 50vh;
@@ -114,7 +114,7 @@ body {
 }
 
 .plat_text {
-    width: 90%;
+    width: 80%;
     align-content: flex-start;
 }
 
@@ -129,33 +129,35 @@ body {
     font-weight: 200;
 }
 
-.combo {
+#combo {
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 0 15rem;
-    gap: 7rem;
+    gap: 5rem;
     box-sizing: border-box;
 }
 
 .combo_img {
     width: 90%;
+    padding-bottom: 4rem;
 }
 
 .combo_text {
     display: flex;
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     gap: 2rem;
     font-weight: 400;
 }
 
-.combo p{
+#combo p{
     color: var(--cinza-secundario);
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: 300;
 }
 
 .combo_button {
@@ -174,7 +176,7 @@ body {
     scale: 1.05;
 }
 
-.download {
+#download {
     height: 50vh;
     width: 100vw;    
     display: grid;
@@ -186,26 +188,29 @@ body {
 }
 
 .down_img {
+    padding-top: 3rem;
     width: 100%;
 }
 
 .down_text {
     color: var(--branco-principal);
+    width: 80%;
 }
 
 .down_text h1 {
     font-weight: 700;
     font-size: 250%;
-    margin: 0;
+    margin: 1rem 0;
 }
 
 .down_text p {
     color: var(--cinza-secundario);
     width: 100%;
-    font-size: 1.3rem;
+    font-weight: 300;
+    font-size: 1.6rem;
 }
 
-.dispositivos {
+#dispositivos {
     height: 90vh;
     width: 100vw;
     display: flex;
@@ -259,4 +264,73 @@ footer {
     text-align: center;
     gap: 1rem;
     margin-bottom: 5rem;
+}
+
+@media (max-width: 1000px) {
+    body {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 7rem;
+        margin: 0 0.8rem;
+    }
+
+    #capa {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .capa_content {
+        width: 80%;
+    }
+
+    #capa, #plataforma, #combo, #download, #dispositivos {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        gap: 0;
+        margin: 0 0.3rem;
+    }
+
+    .plat_text {
+        width: 80%;
+    }
+
+    .plat_text h1 {
+        font-size: 3.7rem;
+    }
+
+    .plat_img, .combo_img, .down_img{
+        width: 50%;
+    }
+
+    .combo_button {
+        align-self: center;
+    }
+
+    #dispositivos {
+        flex-direction: column;
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    #dispositivos h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .dispos_lista {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .footer_lista {
+        display: flex;
+        flex-direction: column;
+    }
 }
