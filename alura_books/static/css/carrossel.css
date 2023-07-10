@@ -1,0 +1,22 @@
+.carrosel_title {
+    color: var(--cor-laranja);
+    background-color: var(--cor-branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 2rem 0 1rem 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 1rem 0;
+}

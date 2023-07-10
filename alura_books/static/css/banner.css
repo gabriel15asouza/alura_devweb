@@ -1,4 +1,7 @@
 .banner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     background: var(--azul-degrade);
     color: var(--cor-branco);
     text-align: center;
