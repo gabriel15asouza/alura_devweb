@@ -30,9 +30,9 @@
             <img src="./static/images/Logo.svg" alt="Logo da AluraBooks" class="container_img">
         </div>
         <div class="container">
-            <a href="#"><img src="./static/images/Favoritos.svg" alt="Favoritos" class="container_img"></a>
-            <a href="#"><img src="./static/images/Compras.svg" alt="Compras" class="container_img"></a>
-            <a href="#"><img src="./static/images/Usuário.svg" alt="Usuários" class="container_img"></a>
+            <a href="#"><img src="./static/images/Favoritos.svg" alt="Favoritos" class="container_img button_icon"></a>
+            <a href="#"><img src="./static/images/Compras.svg" alt="Compras" class="container_img button_icon"></a>
+            <a href="#"><img src="./static/images/Usuário.svg" alt="Usuários" class="container_img button_icon"></a>
         </div>    
     </header>
 
@@ -77,8 +77,8 @@
 
             <div class="card_buttons">
                 <ul class="buttons_lista">
-                    <li class="buttons_itens"><img src="./static/images/Favoritos.svg" alt="Botão de favoritos"></li>
-                    <li class="buttons_itens"><img src="./static/images/Compras.svg" alt="Botão de adicionar às compras"></li>
+                    <li class="buttons_itens button_icon"><img src="./static/images/Favoritos.svg" alt="Botão de favoritos"></li>
+                    <li class="buttons_itens button_icon"><img src="./static/images/Compras.svg" alt="Botão de adicionar às compras"></li>
                 </ul>
                 <a href="#" class="buttons_link">Saiba mais</a>
             </div>
@@ -145,10 +145,21 @@
             <li class="topics_itens"><a class="topics_link" href="#">OO</a></li>
             <li class="topics_itens"><a class="topics_link" href="#">Java</a></li>
         </ul>
-        
     </section>
 
-      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <section class="contato">
+        <h2 class="contato_title">Fique por dentro das novidades!</h2>
+        <p class="contato_text">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input type="email" class="contato_email" id="email" placeholder="Cadastre seu e-mail">
+    </section>
+
+    <hr>
+
+    <footer>
+        <h3 class="footer_alura">Grupo Alura</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script>
         const swiper = new Swiper('.swiper', {
