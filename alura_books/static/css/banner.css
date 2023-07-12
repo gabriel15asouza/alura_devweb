@@ -31,6 +31,32 @@
     padding: 4rem;    
     color: var(--cor-branco);
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 200;
     background: url('../images/Pesquisa.svg') no-repeat 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 10rem 20rem;
+        align-items: center;
+    }
+
+    .banner_title {
+        font-size: 3rem;
+    }
+    
+    .banner_text {
+        font-size: 1.4rem;
+    }
+
+    .banner_search {
+        width: 70%;
+    }
+
+    .banner_search::placeholder {
+        text-align: center;
+        background-position: 6rem;
+    }
+
+    
 }
