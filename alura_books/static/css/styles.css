@@ -15,9 +15,10 @@
     --cor-de-fundo: #ebecee;
     --cor-branco: #ffffff;
     --cor-laranja:#EB9800;
+    --cor-azul: #002f52;
     --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --fonte-principal:'Poppins', sans-serif;
-    --cor-azul: #002f52;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
 }
 
 body {
