@@ -1,0 +1,37 @@
+.topics {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-azul);
+    align-items: center;
+    padding: 2rem;
+}
+
+.topics_title {
+    color: var(--cor-branco);
+    font-weight: 200;
+}
+
+.topics_lista {
+    display: flex;
+    gap: 2rem 1.5rem;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    justify-content: center;
+}
+
+.topics_itens {
+    background-color: var(--cor-laranja);
+    width: fit-content;
+    height: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    list-style: none;
+}
+
+.topics_link {
+    font-weight: 700;
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
