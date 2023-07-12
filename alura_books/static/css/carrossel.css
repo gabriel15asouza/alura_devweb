@@ -54,13 +54,14 @@
 }
 
 .description_text {
-    width: 90%;
+    width: 100%;
     font-weight: 400;
     font-size: 1.4rem;
 }
 
 .card_image {
-    align-items: flex-start;
+    height: 100%;
+    width: 100%;
 }
 
 .card_buttons {
@@ -93,5 +94,5 @@
 
 .link_autora {
     text-align: center;
-    width: 27.6%;
+    width: 30.5%;
 }
