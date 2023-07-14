@@ -34,6 +34,7 @@
 
 .card_content {
     display: flex;
+    justify-content: space-between;
     gap: 2rem;
 }
 
@@ -61,7 +62,7 @@
 
 .card_image {
     height: 100%;
-    width: 100%;
+    width: 20rem;
 }
 
 .card_buttons {
@@ -85,14 +86,43 @@
     text-decoration: none;
     font-weight: 700;
     font-size: 1.5rem;
-    padding: 1.5rem 2.9rem;
+    padding: 1rem 0;
+    width: 14.4rem;
+    text-align: center;
 }
 
 .description_estrelas {
-    width: 60%;
+    width: 10rem;
 }
 
 .link_autora {
     text-align: center;
-    width: 30.5%;
+    width: 15.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrosel_title {
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+        font-size: 2.4rem;
+    }
+
+    .swiper-pagination {
+        margin: 2rem 0 3rem 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-next, 
+    .swiper-button-prev {
+        display: block;
+        top: 60%;
+    }
+    
+    .card {
+        width: 40%;
+        margin: 5rem auto;
+    }
 }
