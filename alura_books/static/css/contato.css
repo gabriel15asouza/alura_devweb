@@ -7,6 +7,12 @@
     color: var(--cor-azul);
 }
 
+.contato_content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .contato_title {
     font-size: 1.7rem;
     font-weight: 700;
@@ -17,6 +23,8 @@
 }
 
 .contato_email {
+    box-sizing: border-box;
+    width: 100%;
     justify-content: center;
     font-size: 1.2rem;
     border: solid var(--cor-azul) 0.18rem;
@@ -29,4 +37,37 @@
     padding: 0 3rem;
     font-size: 1.6rem;
     color: var(--cor-azul);
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem 15rem;
+        gap: 10rem;
+    }
+
+    .contato_content {
+        width: 40rem;
+        gap: 1.5rem;
+    }
+    
+
+    .contato_title {
+        font-size: 2.5rem;
+    }
+
+    .contato_text {
+        font-size: 1.8rem;
+    }
+
+    .contato_input {
+        height: fit-content;
+        width: 40rem;
+    }
+
+    .contato_email {
+        padding: 1.5rem;
+    }
 }
