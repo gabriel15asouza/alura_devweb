@@ -56,3 +56,25 @@
         font-size: 2.4rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topics {
+        padding: 3rem 20rem;
+    }
+
+    .topics_title {
+        font-size: 3rem;
+    }
+
+    .topics_lista {
+        gap: 2rem 4rem;
+    }
+
+    .topics_itens {
+        padding: 4rem;
+    }
+
+    .topics_link {
+        font-size: 3rem;
+    }
+}

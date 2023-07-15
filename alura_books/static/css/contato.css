@@ -71,3 +71,24 @@
         padding: 1.5rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 10rem 30rem;
+        justify-content: space-evenly;
+        gap: 0rem;
+    }
+
+    .contato_content {
+        width: 50rem;
+    }
+
+    .contato_title {
+        font-size: 3rem;
+    }
+
+    .contato_text {
+        font-size: 2rem;
+    }
+
+}
