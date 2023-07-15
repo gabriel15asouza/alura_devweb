@@ -2,7 +2,6 @@
     background-color: var(--cor-branco);
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: relative;
 }
 
@@ -17,7 +16,6 @@
 
 .container {
     display: flex;
-    align-items: center;
 }
 
 .container_img {
@@ -42,6 +40,14 @@
 
 .container_buttom:checked~.lista_menu {
     display: block;
+}
+
+.container_buttom:checked~.container_rotulo>.header_menu {
+    background: url('../images/menu_black_24dp\ 1.png') no-repeat;
+}
+
+.container_buttom:checked~.container_rotulo {
+    background: var(--azul-degrade);
 }
 
 .menu_item, .menu_title {
@@ -93,7 +99,7 @@
         display: flex;
         list-style: none;
         gap: 6rem;
-        padding: .5rem;
+        align-items: center;
     }
 
     .options_itens {
@@ -120,15 +126,15 @@
     .options_button:checked~.lista_menu {
         display: block;
     }
-}   
 
 @media screen and (min-width: 1728px) {
     .header {
-        padding: 2rem;
+        height: 10rem;
     }
 
     .options {
         margin-right: auto;
+        align-items: center;
     }
 
     .options_itens {
@@ -154,5 +160,15 @@
         font-size: 2.3rem;
         font-weight: 500;
         color: var(--cor-azul);
+    }
+
+    .options_button:checked~.options_rotulo>.options_itens {
+        background: var(--azul-degrade);
+        color: var(--cor-branco);
+        padding: 3rem 0.5rem;
+    }
+
+    .options_button:checked~.options_rotulo>.options {
+        align-items: baseline;
     }
 }
