@@ -126,6 +126,7 @@
     .options_button:checked~.lista_menu {
         display: block;
     }
+}
 
 @media screen and (min-width: 1728px) {
     .header {
